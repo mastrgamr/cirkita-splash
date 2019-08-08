@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/transit-pulse-splash/precache-manifest.69caaef9dd10b3faea50778e07ec6fc9.js"
+  "/transit-pulse-splash/precache-manifest.92d24ecb9e0b3ac20c4feb77228cecbf.js"
 );
 
 workbox.clientsClaim();
