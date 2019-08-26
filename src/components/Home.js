@@ -1,17 +1,17 @@
 import React, { Fragment } from 'react';
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
-import PrivacyPolicy from './PrivacyPolicy'
+import { Link, BrowserRouter as Router } from 'react-router-dom'
+// import PrivacyPolicy from './PrivacyPolicy'
 import screenshot from '../images/tpScreenMock.jpg';
 
-import { Button, Container, Divider, Grid, Modal } from 'semantic-ui-react'
+import { Button, Container, Divider, Grid } from 'semantic-ui-react'
 
 const Home = () => {
   return (
     <Fragment>
         <header className="App-header">
-          <p>Transit Pulse [Beta]</p>
+          <p>Cirkita [Beta]</p>
           <img src={screenshot} className="App-logo" alt="logo" />
-          <p>A transportation app.</p>
+          <p>A simple transportation app.</p>
           <Divider />
           <Container>
             <Grid stackable divided centered row>

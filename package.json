@@ -1,7 +1,7 @@
 {
-  "name": "transit-pulse-splash",
-  "version": "0.1.0",
-  "homepage": "http://mastrgamr.github.io/transit-pulse-splash",
+  "name": "cirkita-splash",
+  "version": "0.2.0",
+  "homepage": "https://cirkita.app",
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
