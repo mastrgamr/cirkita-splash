@@ -9,9 +9,9 @@
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/semantic.min.css": "/static/media/brand-icons.a1a749e8.svg",
   "static/media/tpScreenMock.jpg": "/static/media/tpScreenMock.011467c8.jpg",
-  "static/css/main.61d2b76e.chunk.css.map": "/static/css/main.61d2b76e.chunk.css.map",
   "static/css/1.b63ed64e.chunk.css.map": "/static/css/1.b63ed64e.chunk.css.map",
+  "static/css/main.61d2b76e.chunk.css.map": "/static/css/main.61d2b76e.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.712db73ef22dabf8dfba699868f2b5f3.js": "/precache-manifest.712db73ef22dabf8dfba699868f2b5f3.js",
+  "precache-manifest.07c0f63ed848bf6092c51cf35a3fa34f.js": "/precache-manifest.07c0f63ed848bf6092c51cf35a3fa34f.js",
   "service-worker.js": "/service-worker.js"
 }
