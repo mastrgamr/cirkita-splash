@@ -2,4 +2,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Information Site
 
-Site containing information for the Transit Pulse Android app. Currently in Beta on the [Google Play Store](http://bit.ly/transitpulse).
+Site containing information for the Cirkita Android app. Currently in Beta on the [Google Play Store](http://bit.ly/).
