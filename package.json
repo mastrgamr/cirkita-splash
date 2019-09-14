@@ -1,6 +1,6 @@
 {
   "name": "cirkita-splash",
-  "version": "0.2.0",
+  "version": "0.2.6",
   "homepage": "https://cirkita.app",
   "private": true,
   "dependencies": {

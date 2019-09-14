@@ -17,7 +17,7 @@ const Home = () => {
             <Grid stackable divided centered row>
               <Grid.Row columns={2} textAlign='center'>
                 <Grid.Column width={3}>
-                  <a href="#">
+                  <a href="https://bit.ly/cirkita-android">
                     <Button
                       fluid
                       animated='fade'>
