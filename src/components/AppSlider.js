@@ -24,32 +24,36 @@ export default class AppSlider extends Component {
       arrows: false
     };
 
+    const slideStyle = {
+      height: "584px",
+      width: "302px"
+    };
+
     return (
       <div
         style={{
-          width: 354,
-          height: 684,
+          ...slideStyle,
           display: "block",
           float: 'right'
         }}> 
         <Slider {...settings}>
           <div>
-            <img src={screen1} alt="" className="App-slide" />
+            <img src={screen1} alt="" style={{...slideStyle}} className="App-slide" />
           </div>
           <div>
-            <img src={screen2} alt="" style={{ height: "684px", width: "354px" }} />
+            <img src={screen2} alt="" style={{...slideStyle}} className="App-slide" />
           </div>
           <div>
-            <img src={screen3} alt="" style={{ height: "684px", width: "354px" }} />
+            <img src={screen3} alt="" style={{...slideStyle}} className="App-slide" />
           </div>
           <div>
-            <img src={screen4} alt="" style={{ height: "684px", width: "354px" }} />
+            <img src={screen4} alt="" style={{...slideStyle}} className="App-slide" />
           </div>
           <div>
-            <img src={screen5} alt="" style={{ height: "684px", width: "354px" }} />
+            <img src={screen5} alt="" style={{...slideStyle}} className="App-slide" />
           </div>
           <div>
-            <img src={screen6} alt="" style={{ height: "684px", width: "354px" }} />
+            <img src={screen6} alt="" style={{...slideStyle}} className="App-slide" />
           </div>
         </Slider>
       </div>

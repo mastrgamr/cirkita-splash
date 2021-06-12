@@ -1,8 +1,7 @@
 import React, { Fragment } from 'react';
-import { Link, BrowserRouter as Router } from 'react-router-dom'
 import AppSlider from './AppSlider'
 
-import { Button, Image, Grid } from 'semantic-ui-react'
+import { Image, Grid } from 'semantic-ui-react'
 
 import gplayBtn from '../images/gplay_badge.png';
 
@@ -23,7 +22,7 @@ const Home = () => {
                   A way around.
                   </h2>
                 <a href="https://bit.ly/cirkita-android">
-                  <Image src={gplayBtn} size='medium' />
+                  <Image src={gplayBtn} size='small' />
                 </a>
                 {/* <a href="https://bit.ly/cirkita-android">
                   <Button
