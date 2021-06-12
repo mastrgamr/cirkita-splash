@@ -106,9 +106,9 @@ const PrivacyPolicy = () => {
                         <h3>Analytics</h3>
                         <p>We may use third-party Service Providers to monitor and analyze the use of our Service.</p>    
                         <ul>
-                            <li><a href="https://www.google.com/policies/privacy/" target="_blank">Google Play Services</a></li>
-                            <li><a href="https://firebase.google.com/policies/analytics" target="_blank">Firebase Analytics</a></li>
-                            <li><a href="http://try.crashlytics.com/terms/privacy-policy.pdf" target="_blank">Crashlytics</a></li>
+                            <li><a href="https://www.google.com/policies/privacy/" target="_blank" rel="noreferrer">Google Play Services</a></li>
+                            <li><a href="https://firebase.google.com/policies/analytics" target="_blank" rel="noreferrer">Firebase Analytics</a></li>
+                            <li><a href="http://try.crashlytics.com/terms/privacy-policy.pdf" target="_blank" rel="noreferrer">Crashlytics</a></li>
                         </ul>
 
 
