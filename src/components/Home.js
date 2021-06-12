@@ -1,20 +1,43 @@
 import React, { Fragment } from 'react';
 import { Link, BrowserRouter as Router } from 'react-router-dom'
-// import PrivacyPolicy from './PrivacyPolicy'
 import AppSlider from './AppSlider'
-import screenshot from '../images/tpScreenMock.jpg';
 
-import { Button, Container, Divider, Grid, Label, Header } from 'semantic-ui-react'
+import { Button, Image, Grid } from 'semantic-ui-react'
+
+import gplayBtn from '../images/gplay_badge.png';
 
 const Home = () => {
   return (
     <Fragment>
         <div className="App-header">
-          <Header as='h1'>Cirkita<Label size="small">BETA</Label></Header>
-          {/* <img src={screenshot} className="App-logo" alt="logo" /> */}
-          <AppSlider />
-          <p>A way around.</p>
-          <Divider />
+          <Grid centered stackable verticalAlign='middle'>
+            <Grid.Row columns={2}>
+              <Grid.Column>
+                <AppSlider />
+              </Grid.Column>
+              <Grid.Column>
+                <h2 style={{
+                    display: "block",
+                    paddingLeft: "8px"
+                  }}>
+                  A way around.
+                  </h2>
+                <a href="https://bit.ly/cirkita-android">
+                  <Image src={gplayBtn} size='medium' />
+                </a>
+                {/* <a href="https://bit.ly/cirkita-android">
+                  <Button
+                    fluid
+                    animated='fade'>
+                    <Button.Content visible>Download</Button.Content>
+                    <Button.Content hidden>via Google Play Store</Button.Content>
+                  </Button>
+                </a> */}
+              </Grid.Column>
+            </Grid.Row>
+          </Grid>
+
+          {/* <Divider />
           <Container>
             <Grid stackable divided centered row="true">
               <Grid.Row columns={2} textAlign='center'>
@@ -35,19 +58,19 @@ const Home = () => {
                     </Button>
                   </Link>
                 </Grid.Column>
-                {/* <Grid.Column width={3}>
+                <Grid.Column width={3}>
                   <Modal trigger={<Button fluid>Privacy Policy</Button>} closeIcon>
                     <Modal.Header>Privacy Policy</Modal.Header>
                     <Modal.Content scrolling>
                       <Modal.Description>
-                        <PrivacyPolicy />
+                        
                       </Modal.Description>
                     </Modal.Content>
                   </Modal>
-                </Grid.Column> */}
+                </Grid.Column>
               </Grid.Row>
             </Grid>
-          </Container>
+          </Container> */}
         </div>
     </Fragment>
   );

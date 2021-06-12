@@ -8,9 +8,6 @@ import screen4 from '../images/screen4.png';
 import screen5 from '../images/screen5.png';
 import screen6 from '../images/screen6.png';
 
-// import "~slick-carousel/slick/slick.css"; 
-// import "~slick-carousel/slick/slick-theme.css";
-
 export default class AppSlider extends Component {
 
   render() {
@@ -23,7 +20,8 @@ export default class AppSlider extends Component {
       speed: 250,
       autoplay: true,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      arrows: false
     };
 
     return (
@@ -31,7 +29,8 @@ export default class AppSlider extends Component {
         style={{
           width: 354,
           height: 684,
-          display: "block"
+          display: "block",
+          float: 'right'
         }}> 
         <Slider {...settings}>
           <div>
