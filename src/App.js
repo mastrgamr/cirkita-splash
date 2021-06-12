@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import { Divider, Label } from 'semantic-ui-react'
+import { Label } from 'semantic-ui-react'
 
 import Home from './components/Home'
 import PrivacyPolicy from './components/PrivacyPolicy'
