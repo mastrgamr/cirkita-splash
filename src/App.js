@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, Route, Switch, Link } from 'react-router-dom'
 import { Label } from 'semantic-ui-react'
 
 import Home from './components/Home'
@@ -11,12 +11,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      <BrowserRouter>
         <nav id="menu">
           {/* <button aria-label="Show Menu" class="toggle-menu"></button> */}
-          <a id="logo" href="/">Cirkita <Label size="tiny">BETA</Label></a>
-          <a href="/privacy">Privacy</a>
+          <Link id="logo" to="/">Cirkita <Label size="tiny">BETA</Label></Link>
+          <Link to="/privacy">Privacy</Link>
         </nav>
-        <BrowserRouter>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/privacy" component={PrivacyPolicy} />
