@@ -4,6 +4,7 @@ import AppSlider from './AppSlider'
 import { Image, Grid } from 'semantic-ui-react'
 
 import gplayBtn from '../images/gplay_badge.png';
+import appStoreBtn from '../images/astore_badge.png';
 
 const Home = () => {
   return (
@@ -21,10 +22,14 @@ const Home = () => {
                   }}>
                   A way around.
                   </h2>
-                <a href="https://bit.ly/cirkita-android">
+                <a href="https://cirkita.link/android">
                   <Image src={gplayBtn} size='small' />
                 </a>
-                {/* <a href="https://bit.ly/cirkita-android">
+                <div>
+                  {/* <Image src={appStoreBtn} size='small' /> */}
+                  <p>App Store Coming Soon</p>
+                </div>
+                {/* <a href="https://cirkita.link/android">
                   <Button
                     fluid
                     animated='fade'>
