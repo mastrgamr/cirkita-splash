@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c5310dd8.chunk.css",
-    "main.js": "/static/js/main.85feaba6.chunk.js",
-    "main.js.map": "/static/js/main.85feaba6.chunk.js.map",
+    "main.js": "/static/js/main.5c704b33.chunk.js",
+    "main.js.map": "/static/js/main.5c704b33.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.813851f5.js",
     "runtime-main.js.map": "/static/js/runtime-main.813851f5.js.map",
     "static/css/2.ecec23c5.chunk.css": "/static/css/2.ecec23c5.chunk.css",
@@ -12,21 +12,22 @@
     "static/css/2.ecec23c5.chunk.css.map": "/static/css/2.ecec23c5.chunk.css.map",
     "static/css/main.c5310dd8.chunk.css.map": "/static/css/main.c5310dd8.chunk.css.map",
     "static/js/2.a2bfc248.chunk.js.LICENSE.txt": "/static/js/2.a2bfc248.chunk.js.LICENSE.txt",
+    "static/media/astore_badge.51f3c67c.png": "/static/media/astore_badge.51f3c67c.png",
     "static/media/semantic.min.css": "/static/media/outline-icons.ddae9b1b.woff",
     "static/media/gplay_badge.2259264b.png": "/static/media/gplay_badge.2259264b.png",
     "static/media/index.css": "/static/media/lexend-deca-latin-400.9f57652c.woff",
-    "static/media/screen1.7e837ecf.png": "/static/media/screen1.7e837ecf.png",
-    "static/media/screen2.7bedfdc0.png": "/static/media/screen2.7bedfdc0.png",
-    "static/media/screen3.80e51047.png": "/static/media/screen3.80e51047.png",
-    "static/media/screen4.ad89ff0b.png": "/static/media/screen4.ad89ff0b.png",
-    "static/media/screen5.d84d89b0.png": "/static/media/screen5.d84d89b0.png",
-    "static/media/screen6.6190b48f.png": "/static/media/screen6.6190b48f.png"
+    "static/media/screen1.e27c2c16.png": "/static/media/screen1.e27c2c16.png",
+    "static/media/screen2.4b280e0c.png": "/static/media/screen2.4b280e0c.png",
+    "static/media/screen3.57f2bc51.png": "/static/media/screen3.57f2bc51.png",
+    "static/media/screen4.e9a96532.png": "/static/media/screen4.e9a96532.png",
+    "static/media/screen5.c878c4de.png": "/static/media/screen5.c878c4de.png",
+    "static/media/screen6.952e9787.png": "/static/media/screen6.952e9787.png"
   },
   "entrypoints": [
     "static/js/runtime-main.813851f5.js",
     "static/css/2.ecec23c5.chunk.css",
     "static/js/2.a2bfc248.chunk.js",
     "static/css/main.c5310dd8.chunk.css",
-    "static/js/main.85feaba6.chunk.js"
+    "static/js/main.5c704b33.chunk.js"
   ]
 }
