@@ -12,31 +12,25 @@ const Home = () => {
         <div className="App-header">
           <Grid centered stackable verticalAlign='middle'>
             <Grid.Row columns={2}>
-              <Grid.Column>
+              <Grid.Column verticalAlign='middle'>
                 <AppSlider />
               </Grid.Column>
-              <Grid.Column>
+              <Grid.Column verticalAlign='middle'>
                 <h2 style={{
                     display: "block",
-                    paddingLeft: "8px"
+                    paddingLeft: "16px"
                   }}>
                   A way around.
-                  </h2>
+                </h2>
+                <div>
                 <a href="https://cirkita.link/android">
-                  <Image src={gplayBtn} size='small' />
+                  <Image centered src={gplayBtn} size='small' />
                 </a>
+                </div>
                 <div>
                   {/* <Image src={appStoreBtn} size='small' /> */}
                   <p>App Store Coming Soon</p>
                 </div>
-                {/* <a href="https://cirkita.link/android">
-                  <Button
-                    fluid
-                    animated='fade'>
-                    <Button.Content visible>Download</Button.Content>
-                    <Button.Content hidden>via Google Play Store</Button.Content>
-                  </Button>
-                </a> */}
               </Grid.Column>
             </Grid.Row>
           </Grid>

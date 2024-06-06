@@ -9,7 +9,7 @@ const PrivacyPolicy = () => {
             <Grid stackable divided centered row>
                 <Grid.Row columns={1} textAlign='center'>
                     <Grid.Column width={6}>
-                        <p><em>Effective date: August 26, 2019</em></p>
+                        <p><em>Effective date: June 1, 2024</em></p>
 
                         <p>Stuart Smith ("us", "we", or "our") has developed the Cirkita mobile application ("Cirkita").</p>
 
