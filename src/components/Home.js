@@ -28,8 +28,9 @@ const Home = () => {
                 </a>
                 </div>
                 <div>
-                  {/* <Image src={appStoreBtn} size='small' /> */}
-                  <p>App Store Coming Soon</p>
+                  <a href="https://cirkita.link/ios">
+                    <Image centered src={appStoreBtn} size='small' />
+                  </a>
                 </div>
               </Grid.Column>
             </Grid.Row>
